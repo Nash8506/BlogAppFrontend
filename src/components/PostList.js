@@ -12,6 +12,7 @@ const PostList = () => {
   const fetchPosts = async () => {
     try {
       const response = await api.get('/posts');
+      console.log('Fetched posts:', response.data);
       setPosts(response.data);
     } catch (error) {
       console.error('Error fetching posts:', error.response || error.message);
