@@ -1,0 +1,10 @@
+/* frontend/src/pages/HomePage.css */
+h1 {
+    color: #2fb5e6;
+    font-size: 36px;
+    text-align: center;
+  }
+
+.create-new-blog-link {
+    font-size: 24px;
+  }
